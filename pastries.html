@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head> 
+  <title> pastries</title>
+  <link rel="stylesheet" href="StyleSheet.css">
+
+   <style>
+ #navbar ul li a{
+     color:#383848;
+ } 
+  </style>
+
+</head> 
+<body style="background-color:#E6DBE5;"> 
+  
+    <div id="navbar">
+      <img src="./images/logo.png" alt="Sakura Bakery Logo">
+        <nav>
+          <ul>
+            <li><a href ="index.html">Home</a></li>
+           <li><a href ="about.html">About</a></li>
+          <li><a href ="SignIn.html">Sign in</a></li>
+           <li><a href ="ga.html">Gallery</a></li>
+          <li><a href ="pastries.html">pastries</a></li>
+          <li><a href="Dessert.html"> Dessert</a></li>
+          <li><a href ="contact.html">Contact Us</a></li>
+          <li><a href ="nutrition_facts.html">Nutrition fact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+   <main > 
+     <h1 id="pastriesText"> pastries</h1>
+      <div class="pastries ">
+        <div>
+            <img   class="pastries img" src="Banitsa.jpeg" alt=" Banitsa " width="300" height="300"/>
+            <img   class="pastries img"   src="Beguette.jpeg" alt=" Beguette "  width="300" height="300"/>
+            <img   class="pastries img"  src="Carlic Bread.jpeg" alt=" Carlic Bread"  width="300" height="300"/>
+            <br class="clearleft"> 
+        </div>
+        </div >
+        
+         
+          <div class="pastriesButtun2"; class="pastriesButtun">
+        <div class="pastriesButtun">    
+         Banitsa &nbsp;40RS 
+        <button class="pastriesButtun3"   name="Add" value="Add" onclick="funAdd()"> Add </button>
+         <button  class="pastriesButtun5"    name="Clear" value="Clear"onclick="funClear()">Clear</button>
+         </div>
+       
+         <div  class="pastriesButtun">
+         Beguette &nbsp;40RS
+         <button  class="pastriesButtun3"   name="Add" value="Add"onclick="funAdd()">Add </button>
+         <button   class="pastriesButtun4"   name="Clear" value="Clear"onclick="funClear()">Clear</button>
+        </div>
+
+        <div  class="pastriesButtun">
+          Carlic Bread &nbsp;40RS
+         <button  class="pastriesButtun3"  name="Add" value="Add"onclick="funAdd()">Add </button>
+         <button class="pastriesButtun4"   name="Clear" value="Clear"onclick="funClear()">Clear</button>
+       </div>
+        <br class="clearleft"> 
+        </div >
+     
+
+
+      <div class="pastries ">
+        <div >
+            <img   class="pastries img" src="Croissant.jpeg" alt=" Croissant " width="300" height="300"/>
+            <img   class="pastries img"   src="Ekmek bread.jpeg" alt=" Ekmek bread "  width="300" height="300"/>
+            <img   class="pastries img"  src="pide Bread.jpeg" alt=" pide Bread "  width="300" height="300"/>
+            <br class="clearleft"> 
+        </div>
+        </div >
+        
+          <div class="pastriesButtun2";class="pastriesButtun">
+        <div  class="pastriesButtun">    
+         Croissant &nbsp;40RS
+          <button  class="pastriesButtun3"  name="Add" value="Add"onclick="funAdd()">Add </button>
+         <button class="pastriesButtun4"   name="Clear" value="Clear"onclick="funClear()">Clear</button>
+         </div>
+       
+         <div class="pastriesButtun">
+         Ekmek bread &nbsp;40RS
+          <button  class="pastriesButtun3"  name="Add" value="Add"onclick="funAdd()">Add </button>
+         <button class="pastriesButtun4"   name="Clear" value="Clear"onclick="funClear()">Clear</button>
+        </div>
+         
+        <div class="pastriesButtun">
+         pide Bread &nbsp;40RS
+          <button  class="pastriesButtun3"  name="Add" value="Add"onclick="funAdd()">Add </button>
+         <button class="pastriesButtun4" name="Clear" value="Clear"onclick="funClear()">Clear</button>
+       </div>
+        <br class="clearleft"> 
+        </div >
+     
+            
+        <div class="pastries ">
+        <div>
+            
+            <img   class="pastries img" src="Pizza.jpeg" alt=" Pizza " width="300" height="300"/>
+            <img   class="pastries img"   src="Crackers.jpeg" alt=" Crackers "  width="300" height="300"/>
+            <img   class="pastries img"  src="Breadstick.jpeg" alt=" Breadstick "  width="300" height="300"/>
+            <br class="clearleft"> 
+        </div>
+        </div >  
+          
+        <div class="pastriesButtun2";class="pastriesButtun">
+        <div class="pastriesButtun">    
+         Pizza &nbsp;40RS
+          <button  class="pastriesButtun3"  name="Add" value="Add"onclick="funAdd()">Add </button>
+         <button class="pastriesButtun5"   name="Clear" value="Clear"onclick="funClear()">Clear</button>
+         </div>
+       
+         <div class="pastriesButtun">
+         &nbsp;Crackers&nbsp;40RS
+        <button  class="pastriesButtun3"  name="Add" value="Add"onclick="funAdd()">Add </button>
+         <button class="pastriesButtun4"  name="Clear" value="Clear"onclick="funClear()">Clear</button>
+        </div>
+
+        <div class="pastriesButtun">
+         &nbsp;Breadstick&nbsp;40RS
+         <button  class="pastriesButtun3"  name="Add" value="Add"onclick="funAdd()">Add </button>
+         <button class="pastriesButtun4"    name="Clear" value="Clear"onclick="funClear()">Clear</button>
+       </div>
+        <br class="clearleft"> 
+        </div>   
+      
+   </main>
+   <footer> 
+     
+     <script type="text/javascript" srs="main.js">
+      function funAdd(){
+     alert("Added to cart");
+      }
+      function funClear(){
+     alert("Removed from cart");
+      }
+     </script>
+   </footer>
+ </div>
+</body> 
+</html>

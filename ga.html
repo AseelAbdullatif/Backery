@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name ="description" content="this is our store">
+  <title>Bakery Gallery</title>
+  <link rel="stylesheet" href="StyleSheet.css">
+
+  <style>
+ #navbar ul li a{
+     color:#383848;
+ }
+h1 {
+  font-family: "Quicksand",sans-serif ;
+  text-align: center;
+  padding: 25px;
+  font-size: xx-large;
+  margin: 0;
+ }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+    <div id="navbar">
+      <img src="./images/logo.png" alt="Sakura Bakery Logo">
+        <nav>
+          <ul>
+           <li><a href ="index.html">Home</a></li>
+           <li><a href ="about.html">About</a></li>
+          <li><a href ="SignIn.html">Sign in</a></li>
+           <li><a href ="ga.html">Gallery</a></li>
+          <li><a href ="pastries.html">pastries</a></li>
+          <li><a href="Dessert.html"> Dessert</a></li>
+          <li><a href ="contact.html">Contact Us</a></li>
+          <li><a href ="nutrition_facts.html">Nutrition fact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+  <h1>Gallery</h1>
+
+  <div class="gallery">
+    <img src="cake1.jpg" alt="Bakery Image 1">
+    <img src="cake2.jpg" alt="Bakery Image 2">
+    <img src="cake3.jpg" alt="Bakery Image 4">
+    <img src="cake4.jpg" alt="Bakery Image 4">
+    <img src="cake5.jpg" alt="Bakery Image 5">
+    <img src="cake6.jpg" alt="Bakery Image 6">
+    <img src="cake7.jpg" alt="Bakery Image 6">
+    <img src="cake8.jpg" alt="Bakery Image 6">
+    <img src="cake9.jpg" alt="Bakery Image 6">
+    <img src="cake10.jpg" alt="Bakery Image 6">
+    <img src="cake11.jpg" alt="Bakery Image 6">
+  </div>
+
+</body>
+</html>
